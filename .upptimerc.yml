@@ -1,18 +1,14 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Cloudtechtiq-raj # Your GitHub organization or username, where this repository lives
+repo: healthcheck # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
+  - name: Manage Portal
+    url: https://manage.cloudtechtic.com
+  - name: Console
+    url: https://console.cloudtechtiq.com
+  - name: Cloudtechtiq
+    url: https://www.cloudtechtiq.com
     port: 80
     check: "tcp-ping"
     ipv6: true
@@ -20,17 +16,31 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /healthcheck
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Cloudtechtiq Service Status** — Real-time monitoring for our cloud platforms"
+  introMessage: >
+    This page provides real-time uptime, availability, and performance information for Cloudtechtiq services.
+    We use continuous monitoring to ensure reliability for our customers. If you're experiencing issues not
+    reflected here, please contact support at https://cloudtechtiq.com/support.
+
   navbar:
-    - title: Status
-      href: /
+    - title: Cloudtechtiq
+      href: https://www.cloudtechtiq.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
+notifications:
+  - type: email
+    smtpHost: smtp.office365.com
+    smtpPort: 587
+    secure: false
+    auth:
+      user: ${{ secrets.SMTP_USERNAME }}
+      pass: ${{ secrets.SMTP_PASSWORD }}
+    to:
+      - manvendra@cloudtechtiq.com
+    from: ${{ secrets.SMTP_USERNAME }}
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

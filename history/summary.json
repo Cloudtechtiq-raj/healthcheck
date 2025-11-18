@@ -22,17 +22,17 @@
     "url": "https://console.cloudtechtiq.com",
     "icon": "https://icons.duckduckgo.com/ip3/console.cloudtechtiq.com.ico",
     "slug": "console",
-    "status": "up",
+    "status": "down",
     "uptime": "98.61%",
     "uptimeDay": "91.08%",
     "uptimeWeek": "98.61%",
     "uptimeMonth": "98.61%",
     "uptimeYear": "98.61%",
-    "time": 1020,
-    "timeDay": 749,
-    "timeWeek": 1020,
-    "timeMonth": 1020,
-    "timeYear": 1020,
+    "time": 958,
+    "timeDay": 673,
+    "timeWeek": 958,
+    "timeMonth": 958,
+    "timeYear": 958,
     "dailyMinutesDown": {
       "2025-11-18": 128
     }
@@ -54,7 +54,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-11-18": 878,
+      "2025-11-18": 936,
       "2025-11-17": 1440,
       "2025-11-16": 1440,
       "2025-11-15": 1440,

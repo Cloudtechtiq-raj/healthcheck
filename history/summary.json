@@ -4,18 +4,19 @@
     "url": "https://manage.cloudtechtic.com",
     "icon": "https://icons.duckduckgo.com/ip3/manage.cloudtechtic.com.ico",
     "slug": "manage-portal",
-    "status": "up",
-    "uptime": "99.36%",
+    "status": "down",
+    "uptime": "99.37%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "98.72%",
-    "uptimeYear": "99.36%",
+    "uptimeYear": "99.37%",
     "time": 751,
     "timeDay": 703,
     "timeWeek": 724,
     "timeMonth": 739,
     "timeYear": 751,
     "dailyMinutesDown": {
+      "2026-01-12": 0,
       "2025-12-24": 271,
       "2025-12-23": 288
     }
@@ -59,7 +60,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-01-12": 126,
+      "2026-01-12": 705,
       "2026-01-11": 1440,
       "2026-01-10": 1440,
       "2026-01-09": 1440,

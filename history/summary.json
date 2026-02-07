@@ -26,7 +26,7 @@
     "url": "https://console.cloudtechtiq.com",
     "icon": "https://icons.duckduckgo.com/ip3/console.cloudtechtiq.com.ico",
     "slug": "console",
-    "status": "up",
+    "status": "down",
     "uptime": "98.63%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -63,7 +63,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-02-07": 145,
+      "2026-02-07": 345,
       "2026-02-06": 1440,
       "2026-02-05": 1440,
       "2026-02-04": 1440,
